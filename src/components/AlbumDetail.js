@@ -38,6 +38,7 @@ const styles = StyleSheet.create({
     height: 50,
     width: 50,
     margin: 5
+    
   },
   headerContentStyle: {
     flexDirection: "column",
@@ -47,7 +48,8 @@ const styles = StyleSheet.create({
   cardContainerStyle: {
     borderWidth: 1,
     borderRadius: 2,
-    borderColor: "#ddd",
+    //borderColor: "#ddd",
+    borderColor: "#dbbf9e",
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
@@ -59,13 +61,18 @@ const styles = StyleSheet.create({
   },
   cardSectionStyle: {
     padding: 5,
-    backgroundColor: "#fff",
-    borderColor: "#ddd",
+    //backgroundColor: "#fff",
+    backgroundColor: "#dbbf9e",
+    borderColor: "#dbbf9e",
     borderBottomWidth: 1
   },
   imageStyle: {
     height: 300,
-    width: null
+    width: null,
+    borderTopLeftRadius: 20,
+    borderTopRightRadius: 20,
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20
   }
 });
 

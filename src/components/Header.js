@@ -11,7 +11,8 @@ const Header = () => {
 
 const styles = StyleSheet.create({
   headerStyle: {
-    backgroundColor: "#F8F8F8",
+    //backgroundColor: "#F8F8F8",
+    backgroundColor: "#c4d9a9",
     justifyContent: "center",
     alignItems: "center",
     height: 60,
@@ -22,7 +23,10 @@ const styles = StyleSheet.create({
     elevation: 4
   },
   textStyle: {
-    fontSize: 20
+    fontSize: 40,
+    fontStyle: 'italic',
+    fontWeight: 'bold',
+    color: '#fff'
   },
 });
 
