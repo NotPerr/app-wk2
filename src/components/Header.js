@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
     // Android Only
     elevation: 4
   },
+  // style
   textStyle: {
     fontSize: 40,
     fontStyle: 'italic',
